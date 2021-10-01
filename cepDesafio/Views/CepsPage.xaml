@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cepDesafio.Views.CepsPage" 
+             xmlns:views="clr-namespace:cepDesafio.Views"  
+             xmlns:viewModels="clr-namespace:cepDesafio.ViewModels"  
+             xmlns:models="clr-namespace:cepDesafio.Models"
+             Title="App Consulta Cep">
+
+    <TabbedPage.Children>
+        <views:ConsultaCep>
+            <views:ConsultaCep.BindingContext>
+                <viewModels:PesquisaCep/>
+            </views:ConsultaCep.BindingContext>
+        </views:ConsultaCep>
+
+        <views:ListaCep>
+            <views:ListaCep.BindingContext>
+                <viewModels:ListaCepVM/>
+            </views:ListaCep.BindingContext>
+        </views:ListaCep>
+
+        <views:Mapa>
+            <views:Mapa.BindingContext>
+                <viewModels:MapaCep/>
+            </views:Mapa.BindingContext>
+        </views:Mapa>
+    </TabbedPage.Children>
+</TabbedPage>
