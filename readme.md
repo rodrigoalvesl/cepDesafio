@@ -1,6 +1,6 @@
 # cepDesafio 
 
-This repository contains the cepDesafio application developed with Xamarin.Forms for Android and iOS. The application is designed to provide a convenient way to perform various tasks related to CEP (Brazilian ZIP code) lookup and management.
+This repository contains the cepDesafio application developed with Xamarin.Forms for Android. The application is designed to provide a convenient way to perform various tasks related to CEP (Brazilian ZIP code) lookup and management.
 
 ## Features
 
@@ -34,4 +34,4 @@ To run the cepDesafio application locally, follow these steps:
 
 4. Configure the necessary API keys and connection strings required for the CEP lookup and map functionalities. These configurations may vary based on the specific implementation details.
 
-5. Run the application on an Android or iOS emulator or a physical device.
+5. Run the application on an Android emulator or a physical device.
